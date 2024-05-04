@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For TRANSISTORTEST
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+transistor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin		KEYWORD2
+resetallpins	KEYWORD2
+exit		KEYWORD2
+test		KEYWORD2
+isNPN		KEYWORD2
+isPNP		KEYWORD2
+pinout		KEYWORD2
+getVF		KEYWORD2
+getGAIN		KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
