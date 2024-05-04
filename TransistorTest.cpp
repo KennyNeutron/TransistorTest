@@ -116,7 +116,7 @@ void TRANSISTORTEST::database(){
 		}
 
 		//4
-		if(t1an2==841 || t1an2==843 || t1an2==802 || t1an2==803 || t1an2==804 || t1an2==805 || t1an2==810 || t1an2==811 || t1an2==553 || t1an2=554){
+		if(t1an2==841 || t1an2==843 || t1an2==802 || t1an2==803 || t1an2==804 || t1an2==805 || t1an2==810 || t1an2==811 || t1an2==553 || t1an2==554){
 			Vf=random(600,750);
 			GAIN=random(110,800);
 			pinOUT=false;
