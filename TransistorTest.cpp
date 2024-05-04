@@ -109,7 +109,7 @@ void TRANSISTORTEST::database(){
 
 	if(!isNPN() && isPNP()){
 		//3
-		if(t1an2==837 || t1an2==840 || t1an2==807 || t1an2==808 || t1an2===809){
+		if(t1an2==837 || t1an2==840 || t1an2==807 || t1an2==808 || t1an2==809){
 			Vf=random(600,750);
 			GAIN=random(110,800);
 			pinOUT=true;
