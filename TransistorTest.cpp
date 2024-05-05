@@ -109,14 +109,14 @@ void TRANSISTORTEST::database(){
 
 	if(!isNPN() && isPNP()){
 		//3
-		if(t1an2==837 || t1an2==840 || t1an2==807 || t1an2==808 || t1an2==809 || t1an2==552 || t1an2==550 || t1an2==549){
+		if(t1an2==837 || t1an2==840 || t1an2==807 || t1an2==808 || t1an2==809 || t1an2==552 || t1an2==550 || t1an2==549 || t1an2==798 || t1an2==796 || t1an2==797 || t1an2==802 ||  t1an2==791){
 			Vf=random(600,750);
 			GAIN=random(110,800);
 			pinOUT=true;
 		}
 
 		//4
-		if(t1an2==841 || t1an2==843 || t1an2==802 || t1an2==803 || t1an2==804 || t1an2==805 || t1an2==810 || t1an2==811 || t1an2==553 || t1an2==554 || t1an2==547 || t1an2==551 ){
+		if(t1an2==841 || t1an2==843 || t1an2==802 || t1an2==803 || t1an2==804 || t1an2==805 || t1an2==810 || t1an2==811 || t1an2==553 || t1an2==554 || t1an2==547 || t1an2==551 || t1an2==801 || t1an2==788 || t1an2==790 || t1an2==792 || t1an2==794 || t1an2==800 ){
 			Vf=random(600,750);
 			GAIN=random(110,800);
 			pinOUT=false;
